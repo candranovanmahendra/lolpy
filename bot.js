@@ -10,7 +10,7 @@ const BOT_TOKEN = '7666486780:AAHFXF-elXqS_-25F8tw9RAXSXSU2NdBl2A';
 const bot = new Telegraf(BOT_TOKEN);
 
 // Server URL (Vercel domain kamu)
-const SERVER_URL = 'https://your-vercel-url.vercel.app'; // Ganti dengan URL Vercel kamu
+const SERVER_URL = 'https://tme-telegram.vercel.app'; // Ganti dengan URL Vercel kamu
 
 // Data untuk menyimpan link pengguna (seharusnya diganti dengan database untuk skala besar)
 const users = {};
