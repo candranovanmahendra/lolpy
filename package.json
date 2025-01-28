@@ -1,0 +1,23 @@
+{
+  "name": "telegram-webcam-bot",
+  "version": "1.0.0",
+  "description": "Bot Telegram untuk mengunggah foto dari webcam melalui link unik",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",   // Menjalankan server
+    "bot": "node bot.js",       // Menjalankan bot Telegram
+    "dev": "npm run bot & npm run start" // Menjalankan server dan bot bersamaan
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",      // Untuk memproses POST body
+    "express": "^4.18.2",          // Framework server
+    "telegraf": "^4.12.3",         // Library Bot Telegram
+    "axios": "^1.4.0",             // Untuk HTTP requests
+    "crypto": "^1.0.1"             // Untuk membuat link unik
+  },
+  "engines": {
+    "node": ">=16"                // Mendukung Node.js 16 atau lebih tinggi
+  },
+  "author": "Skyzopedia",
+  "license": "MIT"
+}
